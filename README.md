@@ -2,5 +2,5 @@
 
 > "_The best way to learn is by doing, and the best way to remember what you have learnt is it to write about it._"
 
-This repository and the [accompanying website](https://devopsengineerdan.github.io/Data-Engineering-notes-and-demos-best-practices/) contain an ever-growing set of self-contained demos - i.e., Python modules and notebooks that demonstrate how to use the key features of various packages and frameworks that have caught my professional attention over the years.
+This repository and the [accompanying website](https://devopsengineerdan.github.io/data-engineering-notes-and-demos-best-practices/) contain an ever-growing set of self-contained demos - i.e., Python modules and notebooks that demonstrate how to use the key features of various packages and frameworks that have caught my professional attention over the years.
 
