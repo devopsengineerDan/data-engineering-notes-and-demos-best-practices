@@ -1,0 +1,4 @@
+mkdocs==1.5.*
+mkdocs-jupyter==0.24.*
+mkdocs-material==9.5.*
+black[jupyter]==24.1.1

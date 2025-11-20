@@ -1,0 +1,113 @@
+site_name: Study Notes & Demos
+copyright: Copyright &copy; Engineer Dancun
+repo_url: https://github.com/devopsengineerdan.github.io/data-engineering-notes-and-demos-best-practices
+repo_name: devopsengineerDan/data-engineering-notes-and-demos-best-practices
+docs_dir: demos
+site_dir: docs
+
+nav:
+  - About: README.md
+  - Home @ devopsengineerdan.github.io: 'https://devopsengineerdan.github.io'
+  - Data Science:
+    - PyTorch:
+      - pytorch/README.md
+      - Demo Requirements: pytorch/docs/demo_requirements.md
+      - Tensor Manipulation: pytorch/tensors.ipynb
+      - Creating Custom Data Loaders: pytorch/datasets.ipynb
+      - Linear Regression with SGD: pytorch/linear_regression_sgd.ipynb
+      - Logistic Regression with SGD: pytorch/logistic_regression_sgd.ipynb
+      - Deep Learning: pytorch/MNIST.ipynb
+      - PyTorch Lightning: pytorch/MNIST_pytorch_lightning.ipynb
+    - JAX:
+      - jax/README.md
+      - Demo Requirements: jax/docs/demo_requirements.md
+      - Introduction to JAX: jax/introduction_to_jax.ipynb
+      - Linear Regression with SGD: jax/linear_regression.ipynb
+      - Deep Learning with Flax: jax/mnist_with_flax_and_optax.ipynb
+    - SpaCy:
+      - spacy/README.md
+      - Demo Requirements: spacy/docs/demo_requirements.md
+      - NLP Pipelines for Beginners: spacy/spacy_101.ipynb
+  - ML Engineering:
+    - DVC:
+      - dvc/README.md
+      - Demo Requirements: dvc/docs/demo_requirements.md
+      - Dataset Versioning: dvc/data_and_model_versioning.ipynb
+    - DVC Pipelines:
+      - dvc-pipelines/README.md
+      - Demo Requirements: dvc-pipelines/docs/demo_requirements.md
+      - Example Pipeline: dvc-pipelines/docs/example_pipeline.md
+      - Tracking Pipeline Artefacts: dvc-pipelines/dvc_pipelines.ipynb
+    - MLflow:
+      - mlflow/README.md
+      - Demo Requirements: mlflow/docs/demo_requirements.md
+      - mnaging the ML Lifecycle: mlflow/mlflow_basics.ipynb    
+  - Data Engineering:
+    - Dagster:
+      - dagster/README.md
+      - Demo Requirements: dagster/docs/demo_requirements.md 
+      - Example Pipeline: dagster/docs/example_pipeline.md
+      - Testing Pipelines: dagster/docs/testing_pipelines.md
+      - Repos & Worskpaces: dagster/docs/repos_and_workspaces.md
+    - Ibis:
+      - ibis/README.md
+      - Demo Requirements: ibis/docs/demo_requirements.md
+      - Intertcting with Data: ibis/ibis_introduction.ipynb
+    - SQL Alchemy:
+      - sqlalchemy/README.md
+      - Demo Requirements: sqlalchemy/docs/demo_requirements.md
+      - Defining Data Models: sqlalchemy/docs/data_models.md
+      - ORM Basics: sqlalchemy/sql-alchemy-basics.ipynb
+  - Software Engineering:
+    - Pydantic:
+      - pydantic/README.md
+      - Demo Requirements: pydantic/docs/demo_requirements.md
+      - Defining a Data Model: pydantic/docs/define_data_model.md
+      - Validating Runtime Data: pydantic/docs/validating_runtime_data.md
+
+plugins:
+  - mkdocs-jupyter:
+      include: ["*.ipynb"]
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: green
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+  icon:
+    logo: octicons/terminal-24
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/user
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/user
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/user/
