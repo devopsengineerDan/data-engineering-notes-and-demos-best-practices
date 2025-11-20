@@ -1,6 +1,6 @@
 site_name: Study Notes & Demos
 copyright: Copyright &copy; Engineer Dancun
-repo_url: https://github.com/devopsengineerdan.github.io/data-engineering-notes-and-demos-best-practices
+repo_url: https://github.com/devopsengineerDan/data-engineering-notes-and-demos-best-practices
 repo_name: devopsengineerDan/data-engineering-notes-and-demos-best-practices
 docs_dir: demos
 site_dir: docs
@@ -106,8 +106,8 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/user
+      link: https://github.com/DancunManyinsa
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/user
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/user/
+      link: https://www.linkedin.com/in/dancun-manyinsa-42518a17b/
